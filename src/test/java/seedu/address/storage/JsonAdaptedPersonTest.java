@@ -44,7 +44,6 @@ public class JsonAdaptedPersonTest {
         JsonAdaptedPerson person = new JsonAdaptedPerson(BENSON);
         assertEquals(BENSON, person.toModelType());
     }
-    
     @Test
     public void toModelType_invalidName_throwsIllegalValueException() {
 
