@@ -8,7 +8,6 @@ import static java.util.Objects.requireNonNull;
  */
 public class Remark {
     public final String value;
-  
     /**
      * Constructs a {@code Remark} with the specified {@code remark}.
      *

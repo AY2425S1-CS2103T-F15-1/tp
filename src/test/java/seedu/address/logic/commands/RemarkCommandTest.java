@@ -53,7 +53,7 @@ public class RemarkCommandTest {
         expectedModel.setPerson(firstPerson, editedPerson);
         assertCommandSuccess(remarkCommand, model, expectedMessage, expectedModel);
     }
-  
+
     @Test
     public void execute_filteredList_success() {
         showPersonAtIndex(model, INDEX_FIRST_PERSON);

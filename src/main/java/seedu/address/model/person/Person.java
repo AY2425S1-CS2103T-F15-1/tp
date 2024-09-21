@@ -56,7 +56,6 @@ public class Person {
     public Remark getRemark() {
         return remark;
     }
-    
 
     /**
      * Returns an immutable tag set, which throws {@code UnsupportedOperationException}

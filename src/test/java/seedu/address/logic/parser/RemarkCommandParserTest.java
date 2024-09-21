@@ -13,7 +13,6 @@ import static seedu.address.testutil.TypicalIndexes.INDEX_FIRST_PERSON;
 public class RemarkCommandParserTest {
     private RemarkCommandParser parser = new RemarkCommandParser();
     private final String nonEmptyRemark = "Some remark.";
-  
     @Test
     public void parse_indexSpecified_success() {
         // have remark
