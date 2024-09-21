@@ -23,7 +23,6 @@ public class Person {
 
     // Data fields
     private final Address address;
-    private final Remark remark;
     private final Set<Tag> tags = new HashSet<>();
 
     /**
@@ -57,10 +56,7 @@ public class Person {
     public Remark getRemark() {
         return remark;
     }
-
-    public Remark getRemark() {
-        return remark;
-    }
+    
 
     /**
      * Returns an immutable tag set, which throws {@code UnsupportedOperationException}
