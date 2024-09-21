@@ -7,7 +7,6 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-import seedu.address.commons.util.ToStringBuilder;
 import seedu.address.model.tag.Tag;
 
 /**
@@ -24,6 +23,7 @@ public class Person {
 
     // Data fields
     private final Address address;
+    private final Remark remark;
     private final Set<Tag> tags = new HashSet<>();
 
     /**
@@ -53,6 +53,9 @@ public class Person {
 
     public Address getAddress() {
         return address;
+    }
+    public Remark getRemark() {
+        return remark;
     }
 
     public Remark getRemark() {
