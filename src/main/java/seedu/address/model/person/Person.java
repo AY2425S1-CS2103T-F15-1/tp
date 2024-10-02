@@ -20,10 +20,10 @@ public class Person {
     private final Name name;
     private final Phone phone;
     private final Email email;
-    private final Remark remark;
 
     // Data fields
     private final Address address;
+    private final Remark remark;
     private final Set<Tag> tags = new HashSet<>();
 
     /**
@@ -54,6 +54,7 @@ public class Person {
     public Address getAddress() {
         return address;
     }
+
 
     public Remark getRemark() {
         return remark;
@@ -100,14 +101,13 @@ public class Person {
                 && phone.equals(otherPerson.phone)
                 && email.equals(otherPerson.email)
                 && address.equals(otherPerson.address)
-                && remark.equals(otherPerson.remark)
                 && tags.equals(otherPerson.tags);
     }
 
     @Override
     public int hashCode() {
         // use this method for custom fields hashing instead of implementing your own
-        return Objects.hash(name, phone, email, address, remark, tags);
+        return Objects.hash(name, phone, email, address, tags);
     }
 
     @Override
