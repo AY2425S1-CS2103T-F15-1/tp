@@ -108,7 +108,7 @@
       "title": "User Guide",
       "headings": {
         "novacare-user-guide": "NovaCare User Guide",
-        "novacare-is-a-desktop-app-for-managing-patients-optimized-for-use-via-a-line-interface-cli-while-still-having-the-benefits-of-a-graphical-user-interface-gui-if-you-can-type-fast-novacare-can-get-your-patient-management-tasks-done-faster-than-traditional-gui-apps": "NovaCare is a desktop app for managing patients, optimized for use via a  Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI).\nIf you can type fast, NovaCare can get your patient management tasks done faster than traditional GUI apps.",
+        "novacare-is-a-desktop-app-for-managing-patients-optimized-for-use-via-a-line-interface-cli-while-still-having-the-benefits-of-a-graphical-user-interface-gui-if-you-can-type-fast-novacare-can-get-your-patient-management-tasks-done-faster-than-traditional-gui-apps": "NovaCare is a desktop app for managing patients, optimized for use via a Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI).\nIf you can type fast, NovaCare can get your patient management tasks done faster than traditional GUI apps.",
         "table-of-contents": "Table of Contents",
         "how-to-use-novacare": "How to use NovaCare",
         "quick-start": "Quick start",
@@ -122,6 +122,7 @@
         "adding-a-task-addtask": "Adding a task : addtask",
         "deleting-a-task-deletetask": "Deleting a task : deletetask",
         "adding-emergency-contact-emergency": "Adding emergency contact : emergency",
+        "deleting-emergency-contact-delemergency": "Deleting emergency contact : delemergency",
         "adding-priority-level-priority": "Adding priority level : priority",
         "deleting-priority-level-deletelevel": "Deleting priority level : deletelevel",
         "mark-task-marktask": "Mark Task : marktask",
