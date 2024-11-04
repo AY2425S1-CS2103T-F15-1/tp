@@ -111,7 +111,14 @@
         "novacare-is-a-desktop-app-for-managing-patients-optimized-for-use-via-a-line-interface-cli-while-still-having-the-benefits-of-a-graphical-user-interface-gui-if-you-can-type-fast-novacare-can-get-your-patient-management-tasks-done-faster-than-traditional-gui-apps": "NovaCare is a desktop app for managing patients, optimized for use via a Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI).\nIf you can type fast, NovaCare can get your patient management tasks done faster than traditional GUI apps.",
         "table-of-contents": "Table of Contents",
         "how-to-use-novacare": "How to use NovaCare",
+        "glossary": "Glossary",
+        "annotations-box": "Annotations box",
         "quick-start": "Quick start",
+        "step-1-ensure-you-have-java-17-or-above-installed-in-your-computer-you-can-download-java-from-here": "Step 1. Ensure you have Java 17 or above installed in your Computer. You can download Java from here.",
+        "step-2-download-novacare-from-here": "Step 2. Download NovaCare from here.",
+        "step-3-run-the-application": "Step 3. Run the application",
+        "overview-of-gui": "Overview of GUI",
+        "get-started-with-novacare": "Get started with NovaCare",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
         "adding-a-person-add": "Adding a person: add",
@@ -133,7 +140,10 @@
         "archiving-data-files-coming-in-v2-0": "Archiving data files [coming in v2.0]",
         "faq": "FAQ",
         "known-issues": "Known issues",
-        "command-summary": "Command summary"
+        "command-summary": "Command summary",
+        "person-related-commands": "Person-related commands:",
+        "task-related-commands": "Task-related commands:",
+        "other-commands": "Other commands:"
       },
       "headingKeywords": {}
     },
