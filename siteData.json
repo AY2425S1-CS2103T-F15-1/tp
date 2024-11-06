@@ -40,7 +40,7 @@
       "src": "DeveloperGuide.md",
       "title": "Developer Guide",
       "headings": {
-        "ab-3-developer-guide": "AB-3 Developer Guide",
+        "novacare-developer-guide": "NovaCare Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -63,7 +63,9 @@
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "saving-data": "Saving data",
+        "adding-a-task": "Adding a Task",
+        "changing-priority": "Changing Priority"
       },
       "headingKeywords": {}
     },
@@ -151,7 +153,7 @@
       "src": "index.md",
       "title": "",
       "headings": {
-        "addressbook-level-3": "AddressBook Level-3"
+        "novacare": "NovaCare"
       },
       "headingKeywords": {}
     },
