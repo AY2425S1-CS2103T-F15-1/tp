@@ -29,12 +29,12 @@ In this guide, users will be able to learn the following details:
       - 6.2.1 [Adding a patient](#adding-a-patient-add)
       - 6.2.2 [Listing all patients](#listing-all-patients--list)
       - 6.2.3 [Editing a patient](#editing-a-patient--edit)
-      - 6.2.4 [Locating patients by name](#locating-patients-by-name-find)
+      - 6.2.4 [Locating patients by name](#locating-patients-by-name--find)
       - 6.2.5 [Deleting a patient](#deleting-a-patient--delete)
       - 6.2.6 [Adding emergency contact](#adding-emergency-contact--emergency)
       - 6.2.7 [Deleting emergency contact](#deleting-emergency-contact--delemergency)
       - 6.2.8 [Adding priority level](#adding-priority-level--priority)
-      - 6.2.9 [Deleting priority level](#deleting-priority-level--deletelevel) 
+      - 6.2.9 [Deleting priority level](#deleting-priority-level--priority-index-lreset) 
     - 6.3 [Task commands](#task-commands)
       - 6.3.1 [Adding a task](#adding-a-task--addtask)
       - 6.3.2 [Deleting a task](#deleting-a-task--deletetask)
@@ -194,10 +194,10 @@ This section provides a detailed explanation of the features available in NovaCa
   e.g. in `add n/NAME`, `NAME` is a parameter which can be used as `add n/John Doe`.
 
 * Items in square brackets `[]` are optional.<br>
-  e.g `n/NAME [t/TAG]` can be used as `n/John Doe t/friend` or as `n/John Doe`.
+  e.g `n/NAME [t/TAG]` can be used as `n/John Doe t/Allergic to shellfish` or as `n/John Doe`.
 
 * Items with `…`​ after them can be used multiple times including zero times.<br>
-  e.g. `[t/TAG]…​` can be used as ` ` (i.e. 0 times), `t/friend`, `t/friend t/family` etc.
+  e.g. `[t/TAG]…​` can be used as ` ` (i.e. 0 times), `t/Allergic to shellfish`, `t/Allergic to nuts t/Allergic to milk` etc.
 
 * Parameters can be in any order.<br>
   e.g. if the command specifies `n/NAME p/PHONE_NUMBER`, `p/PHONE_NUMBER n/NAME` is also acceptable.
@@ -220,18 +220,18 @@ Otherwise, the command will not be executed and display an error message in Resu
 ![failCommand](images/failAdd.png)
 </box>
 
-| Parameter   | Description             | Limitations                                                                                                                                                                                                                                                                                                                                                           | Example                                                                                 |
-|-------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **NAME**    | Name of patient         | * Names should only contain alphanumeric characters and spaces.<br/>* It should not be blank.                                                                                                                                                                                                                                                                         | :white_check_mark: `Thomas Ho`<br/>:x: `Th@mas`                                         |
-|**EMERGENCY_CONTACT_NAME**| Name of emergency contact| * Names should only contain alphanumeric characters and spaces.<br/>* It should not be blank.                                                                                                                                                                                                                                                                         | :white_check_mark: `Thomas Ho`<br/>:x: `Th@mas`                                         |
-| **PHONE_NUMBER** | Phone number of patient | * Phone numbers should only contain numbers no spaces allowed.<br/>* At least 3 digits long.<br/>* Should not be blank.<br/>* Allow international numbers.                                                                                                                                                                                                            | :white_check_mark: `91234567`<br/>:white_check_mark: `60194723537`<br/>:x:`9123 4567`   |
-| **EMERGENCY_CONTACT_NUMBER** | Phone number of emergency contact | * Phone numbers should only contain numbers no spaces allowed.<br/>* At least 3 digits long.<br/>* Should not be blank.<br/>* Allow international numbers.                                                                                                                                                                                                            | :white_check_mark: `91234567`<br/>:white_check_mark: `60194723537`<br/>:x:`9123 4567`   |
-| **EMAIL**   | Email of patient        | *Format must be in `LOCAL-PART@DOMAIN`.<br/> *No space allowed.<br/> * `LOCAL-PART` contains alphanumeric characters and these special characters, excluding the parentheses, (+_.-).<br/> * `LOCAL-PART` local-part may not start or end with any special character.<br/> * `DOMAIN` must be at least 2 characters long, start and end with alphanumeric characters. | :white_check_mark: `thomasho@gmail.com`<br/>:x: `$thomas@gmail.com`(`LOCAL-PART` error) |
-| **ADDRESS** | Address of patient      | * Address should not be blank.<br/> * Address can take any values                                                                                                                                                                                                                                                                                                     | :white_check_mark: `123, Clementi Rd, 1234665`<br/>                                     |
-| **TAG**     | Tag of patient          | * Tags take alphanumeric and spaces                                                                                                                                                                                                                                                                                                                                   | :white_check_mark: `high blood pressure`<br/>:x:`low income $`                          |
-| **INDEX**   | Index of patient on GUI | * Index should be a positive integer.<br/> * Index should not be blank.]                                                                                                                                                                                                                                                                                              | :white_check_mark: `1`<br/>:x: `0`                                                      |
-| **DESCRIPTION** | Description of task | * Description should not be blank.<br/> * Description can take any values.                                                                                                                                                                                                                                                                                            | :white_check_mark: `Eat paracetamol 1000mg`<br/>                                        |
-|**PRIORITY_LEVEL** | Priority level of patient | * Priority level should be either 1, 2, 3 or reset.                                                                                                                                                                                                                                                                                                                   | :white_check_mark: `1`<br/>:x: `4`                                                      |
+| Parameter                    | Description                       | Limitations                                                                                                                                                                                                                                                                                                                                                            | Example                                                                                 |
+|------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| **NAME**                     | Name of patient                   | * Names should only contain alphanumeric characters and spaces.<br/>* It should not be blank.                                                                                                                                                                                                                                                                          | :white_check_mark: `Thomas Ho`<br/>:x: `Th@mas`                                         |
+| **EMERGENCY_CONTACT_NAME**   | Name of emergency contact         | * Names should only contain alphanumeric characters and spaces.<br/>* It should not be blank.                                                                                                                                                                                                                                                                          | :white_check_mark: `Thomas Ho`<br/>:x: `Th@mas`                                         |
+| **PHONE_NUMBER**             | Phone number of patient           | * Phone numbers should only contain numbers no spaces allowed.<br/>* At least 3 digits long.<br/>* Should not be blank.<br/>* Allow international numbers.                                                                                                                                                                                                             | :white_check_mark: `91234567`<br/>:white_check_mark: `60194723537`<br/>:x:`9123 4567`   |
+| **EMERGENCY_CONTACT_NUMBER** | Phone number of emergency contact | * Phone numbers should only contain numbers no spaces allowed.<br/>* At least 3 digits long.<br/>* Should not be blank.<br/>* Allow international numbers.                                                                                                                                                                                                             | :white_check_mark: `91234567`<br/>:white_check_mark: `60194723537`<br/>:x:`9123 4567`   |
+| **EMAIL**                    | Email of patient                  | * Format must be in `LOCAL-PART@DOMAIN`.<br/> *No space allowed.<br/> * `LOCAL-PART` contains alphanumeric characters and these special characters, excluding the parentheses, (+_.-).<br/> * `LOCAL-PART` local-part may not start or end with any special character.<br/> * `DOMAIN` must be at least 2 characters long, start and end with alphanumeric characters. | :white_check_mark: `thomasho@gmail.com`<br/>:x: `$thomas@gmail.com`(`LOCAL-PART` error) |
+| **ADDRESS**                  | Address of patient                | * Address should not be blank.<br/> * Address can take any values.                                                                                                                                                                                                                                                                                                     | :white_check_mark: `123, Clementi Rd, 1234665`<br/>                                     |
+| **TAG**                      | Tag of patient                    | * Tags take alphanumeric and spaces.                                                                                                                                                                                                                                                                                                                                   | :white_check_mark: `high blood pressure`<br/>:x:`low income $`                          |
+| **INDEX**                    | Index of patient on GUI           | * Index should be a positive integer.<br/> * Index should not be blank.                                                                                                                                                                                                                                                                                                | :white_check_mark: `1`<br/>:x: `0`                                                      |
+| **DESCRIPTION**              | Description of task               | * Description should not be blank.<br/> * Description can take any values.                                                                                                                                                                                                                                                                                             | :white_check_mark: `Eat paracetamol 1000mg`<br/>                                        |
+| **PRIORITY_LEVEL**           | Priority level of patient         | * Priority level should be either 1, 2, 3 or reset.                                                                                                                                                                                                                                                                                                                    | :white_check_mark: `1`<br/>:x: `4`                                                      |
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
@@ -250,7 +250,7 @@ Adds a patient details to the system.
 * Upon adding a patient the default priority is set to *3*. 
   * Users can change the priority level using the [`priority` command](#adding-priority-level-priority).
 * To update emergency contact details, use the [`emergency` command](#adding-emergency-contact-emergency).
-* A person will not be added if the name and phone number is already in the system.
+* A patient will not be added if the name and phone number is already in the system.
 * Refer to [Parameter Information](#parameter-information) for the limitations of each parameter.
 </box>
 
@@ -264,7 +264,7 @@ Adds a patient details to the system.
 
 Examples:
 * `add n/John Doe p/98765432 e/johnd@example.com a/John street, block 123, #01-01`
-* `add n/Betsy Crowe t/friend e/betsycrowe@example.com a/Newgate Prison p/1234567 t/criminal`
+* `add n/Betsy Crowe t/friend e/betsycrowe@example.com a/Newgate Prison p/1234567 t/Allergic to shellfish`
 
 ### Listing all patients : `list`
 
@@ -296,7 +296,7 @@ Examples:
 *  `edit 1 p/91234567 e/johndoe@example.com` Edits the phone number and email address of the 1st patient to be `91234567` and `johndoe@example.com` respectively.
 *  `edit 2 n/Betsy Crower t/` Edits the name of the 2nd patient to be `Betsy Crower` and clears all existing tags.
 
-### Locating patients by name: `find`
+### Locating patients by name : `find`
 
 Finds patients whose names contain any of the given keywords.
 
@@ -375,7 +375,7 @@ Example:
 
 Adds an priority level to a patient in the system.
 
-:pencil: Format: `priority INDEX /level PRIORITY_LEVEL`
+:pencil: Format: `priority INDEX l/PRIORITY_LEVEL`
 
 <box type="info" seamless>
 
@@ -387,13 +387,13 @@ Adds an priority level to a patient in the system.
 </box>
 
 Example:
-* `priority 1 /level 2` adds priority level `2` to 1st index in patient list.
+* `priority 1 /l 2` adds priority level `2` to 1st index in patient list.
 
-### Deleting priority level : `deletelevel`
+### Deleting priority level : `priority INDEX l/reset`
 
 Delete a priority level to a patient in the system, resetting it to the default value **3**.
 
-:pencil: Format: `deletelevel INDEX` or `priority INDEX l/reset`
+:pencil: Format: `priority INDEX l/reset`
 
 <box type="info" seamless>
 
@@ -403,9 +403,8 @@ Delete a priority level to a patient in the system, resetting it to the default 
 * The index **must be a positive integer** 1, 2, 3, …​
 </box>
 
-Examples:
-* `deletelevel 1` deletes priority level of the 1st indexed patient in the patient list.
-* `priority 1 l/reset` resets the priority level of the 1st indexed patient in the patient list.
+Example:
+* `priority 1 l/reset` resets the priority level of the 1st indexed patient in the patient list to default level 3.
 
 [⬆️ Back to Table of Contents](#table-of-contents)
 
