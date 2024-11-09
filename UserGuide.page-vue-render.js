@@ -128,7 +128,7 @@ with(this){return _c('p',[_v("📝 Format: "),_c('code',{pre:true,attrs:{"class"
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/John Doe p/98765432 e/johnd@example.com a/John street, block 123, #01-01")]),_v(" adds a patient named "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("John Doe")]),_v(", with phone number "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("98765432")]),_v(", email "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("johnd@example.com")]),_v(" and address "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("John street, block 123, #01-01")]),_v(" into the system.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/Betsy Crowe e/betsycrowe@example.com a/Blk 50 Tampines Street 21, #08-281 p/1234567 t/Diabetic")]),_v(" adds a patient named "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Betsy Crowe")]),_v(" with email "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("betsycrowe@example.com")]),_v(", address "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Blk 50 Tampines Street 21, #08-281")]),_v(", phone number "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("1234567")]),_v(" and tags as "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Diabetic")]),_v(" to the system.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add n/Jarell p/000 e/unknown@x.com a/unknown address")]),_v(" adds a patient named "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Jarell")]),_v(" with phone number "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("000")]),_v(", email "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("unknown@x.com")]),_v(", address "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("unknown address")]),_v(" and no tags. As mentioned in "),_c('a',{attrs:{"href":"#61-parameter-information"}},[_v("Parameter Information")]),_v(", phone/email/address fields are unknown, hence they are filled with the recommended filler fields.")])])}
 },function anonymous(
 ) {
-with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("New person added: John Doe; Phone: 98765432; Email: johnd@example.com; Address: 311, Clementi Ave 2, #02-25; Tags: [Diabetic]\n")]),_c('span',[_v("New person added: Betsy Crowe; Phone: 1234567; Email: betsycrowe@example.com; Address: Blk 50 Tampines Street 21, #08-281; Tags: [Diabetic]\n")]),_c('span',[_v("New person added: Jarell; Phone: 000; Email: unknown@x.com; Address: unknown address; Tags: \n")])])])}
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("New patient added: John Doe; Phone: 98765432; Email: johnd@example.com; Address: 311, Clementi Ave 2, #02-25; Tags: [Diabetic]\n")]),_c('span',[_v("New patient added: Betsy Crowe; Phone: 1234567; Email: betsycrowe@example.com; Address: Blk 50 Tampines Street 21, #08-281; Tags: [Diabetic]\n")]),_c('span',[_v("New patient added: Jarell; Phone: 000; Email: unknown@x.com; Address: unknown address; Tags: \n")])])])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"6-2-2-listing-all-patients-list"}},[_v("6.2.2 Listing all patients: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#6-2-2-listing-all-patients-list","onclick":"event.stopPropagation()"}})])}
@@ -140,7 +140,7 @@ with(this){return _c('p',[_v("📝 Format: "),_c('code',{pre:true,attrs:{"class"
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" lists and displays all the patients in the system.")])])}
 },function anonymous(
 ) {
-with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Listed all persons\n")])])])}
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Listed all patients\n")])])])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"6-2-3-editing-a-patient-edit"}},[_v("6.2.3 Editing a patient: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#6-2-3-editing-a-patient-edit","onclick":"event.stopPropagation()"}})])}
@@ -152,7 +152,7 @@ with(this){return _c('p',[_v("📝 Format: "),_c('code',{pre:true,attrs:{"class"
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 1 p/91234567 e/johndoe@example.com")]),_v(" edits the phone number and email address of the 1st patient to be "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("91234567")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("johndoe@example.com")]),_v(" respectively.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit 2 n/Betsy Crower t/")]),_v(" edits the name of the 2nd patient to be "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Betsy Crower")]),_v(" and clears all existing tags.")])])}
 },function anonymous(
 ) {
-with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Edited Person: John Doe; Phone: 91234567; Email: johndoe@example.com; Address: 311, Clementi Ave 2, #02-25; Tags: [Diabetic]\n")]),_c('span',[_v("Edited Person: Betsy Crower; Phone: 98765432; Email: johnd@example.com; Address: 311, Clementi Ave 2, #02-25; Tags: \n")])])])}
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Edited Patient: John Doe; Phone: 91234567; Email: johndoe@example.com; Address: 311, Clementi Ave 2, #02-25; Tags: [Diabetic]\n")]),_c('span',[_v("Edited Patient: Betsy Crower; Phone: 98765432; Email: johnd@example.com; Address: 311, Clementi Ave 2, #02-25; Tags: \n")])])])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"6-2-4-locating-patients-by-name-find"}},[_v("6.2.4 Locating patients by name: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#6-2-4-locating-patients-by-name-find","onclick":"event.stopPropagation()"}})])}
@@ -164,7 +164,7 @@ with(this){return _c('p',[_v("📝 Format: "),_c('code',{pre:true,attrs:{"class"
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find John")]),_v(" returns any patient that has the name John inside, for instance "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("john")]),_v(" and "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("John Doe")])]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find alex david")]),_v(" returns any patient with names containing either \"Alex\" or \"David\". This means it will return any patient whose name includes either \"Alex\" or \"David\" as part of their name, for instance, "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Alex Yeoh")]),_v(" or "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("David Li")]),_c('br')])])}
 },function anonymous(
 ) {
-with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("2 persons listed!\n")])])])}
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("2 patients listed!\n")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("You should see something like this:"),_c('br'),_c('br'),_v(" "),_c('a',{attrs:{"href":"/tp/images/FindPatientExample.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/FindPatientExample.png","alt":"result for 'Find_Patient_Example'"}})]),_v(" "),_c('br'),_c('br')])}
@@ -179,7 +179,7 @@ with(this){return _c('p',[_v("📝 Format: "),_c('code',{pre:true,attrs:{"class"
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" followed by "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 2")]),_v(" deletes the 2nd patient in the system.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find john doe")]),_v(" followed by "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete 1")]),_v(" deletes the 1st-indexed patient in the resultant list produced from the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find")]),_v(" command.")])])}
 },function anonymous(
 ) {
-with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Deleted Person: John Doe; Phone: 91245555; Email: johnd@example.com; Address: 311, Clementi Ave 2, #02-25; Tags: [Diabetic]\n")])])])}
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Deleted Patient: John Doe; Phone: 91245555; Email: johnd@example.com; Address: 311, Clementi Ave 2, #02-25; Tags: [Diabetic]\n")])])])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"6-2-6-adding-emergency-contact-emergency"}},[_v("6.2.6 Adding emergency contact: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("emergency")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#6-2-6-adding-emergency-contact-emergency","onclick":"event.stopPropagation()"}})])}
@@ -257,13 +257,13 @@ with(this){return _c('ul',[_c('li',[_v("As mentioned in the note above, task des
 with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" followed by "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addtask 2 d/Eat paracetamol 1000mg")]),_v(" adds a task to the 2nd-indexed patient in the system.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find John doe")]),_v(" followed by "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addtask 1 d/Clear Diapers")]),_v(" adds a task "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Clear Diapers")]),_v(" to the 1st-indexed patient in the resultant list produced from the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("find")]),_v(" command.")])])}
 },function anonymous(
 ) {
-with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Listed all persons\n")]),_c('span',[_v("New task added: Eat paracetamol 1000mg\n")])])])}
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("Listed all patients\n")]),_c('span',[_v("New task added: Eat paracetamol 1000mg\n")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("You should see something like this:"),_c('br'),_c('br'),_v(" "),_c('a',{attrs:{"href":"/tp/images/AddTaskExample1.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/AddTaskExample1.png","alt":"result for 'Add_Task_Example_1'"}})])])}
 },function anonymous(
 ) {
-with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("1 persons listed!\n")]),_c('span',[_v("New task added: Clear Diapers\n")])])])}
+with(this){return _c('pre',[_c('code',{pre:true,attrs:{"class":"hljs"}},[_c('span',[_v("1 patient listed!\n")]),_c('span',[_v("New task added: Clear Diapers\n")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("You should see something like this:"),_c('br'),_c('br'),_v(" "),_c('a',{attrs:{"href":"/tp/images/AddTaskExample2.png","target":"_self"}},[_c('img',{staticClass:"img-fluid",attrs:{"src":"/tp/images/AddTaskExample2.png","alt":"result for 'Add_Task_Example_2'"}})]),_v(" "),_c('br'),_c('br')])}
@@ -467,6 +467,6 @@ with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticC
 with(this){return _c('p',[_c('a',{attrs:{"href":"#table-of-contents"}},[_v("⬆️ Back to Table of Contents")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 9 Nov 2024, 17:04:12 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 9 Nov 2024, 17:12:19 GMT+8]")])])])}
 }];
   
