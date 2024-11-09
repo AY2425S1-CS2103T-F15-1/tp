@@ -245,13 +245,13 @@ with(this){return _c('p',[_c('strong',[_v("Use Case: UC02 - Delete Patient")])])
 with(this){return _c('p',[_c('strong',[_v("MSS")])])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("User chooses to delete a patient.")])]),_v(" "),_c('li',[_c('p',[_v("NovaCare prompts the user to enter patient details.")])]),_v(" "),_c('li',[_c('p',[_v("User inputs the required patient details.")])]),_v(" "),_c('li',[_c('p',[_v("NovaCare outputs a message showing successful patient deletion.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("User chooses to delete a patient.")])]),_v(" "),_c('li',[_c('p',[_v("NovaCare prompts the user to enter patient ID.")])]),_v(" "),_c('li',[_c('p',[_v("User inputs the required patient ID.")])]),_v(" "),_c('li',[_c('p',[_v("NovaCare outputs a message showing successful patient deletion.")]),_v(" "),_c('p',[_v("Use case ends.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Extensions")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('p',[_v("3a. NovaCare cannot find the patient.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. NovaCare prompts the user to enter valid patient details.")])]),_v(" "),_c('li',[_c('p',[_v("3a2. User re-enters the patient details.")]),_v(" "),_c('p',[_v("Steps 3a1-3a2 are repeated until a valid patient record is found.\nUse case resumes at step 3 if the patient details are correct.")])])])])])}
+with(this){return _c('ul',[_c('li',[_c('p',[_v("3a. NovaCare cannot find the patient.")]),_v(" "),_c('ul',[_c('li',[_c('p',[_v("3a1. NovaCare prompts the user to enter valid patient ID.")])]),_v(" "),_c('li',[_c('p',[_v("3a2. User re-enters the patient details.")]),_v(" "),_c('p',[_v("Steps 3a1-3a2 are repeated until a valid patient record is found.\nUse case resumes at step 3 if the patient details are correct.")])])])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("Use case: UC03 - Add Task")])])}
@@ -359,7 +359,7 @@ with(this){return _c('h2',{attrs:{"id":"appendix-instructions-for-manual-testing
 with(this){return _c('h3',{attrs:{"id":"launch-and-shutdown"}},[_v("Launch and Shutdown"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#launch-and-shutdown","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Initial launch")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Download the jar file and copy into an empty folder")])]),_v(" "),_c('li',[_c('p',[_v("Double-click the jar file Expected: Shows the GUI with a set of sample contacts. The window size may not be optimum.")])])])]),_v(" "),_c('li',[_c('p',[_v("Saving window preferences")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Resize the window to an optimum size. Move the window to a different location. Close the window.")])]),_v(" "),_c('li',[_c('p',[_v("Re-launch the app by double-clicking the jar file."),_c('br'),_v("\nExpected: The most recent window size and location is retained.")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("Initial launch")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Download the jar file and copy into an empty folder.")])]),_v(" "),_c('li',[_c('p',[_v("Open a terminal and navigate to the folder containing the jar file.")])]),_v(" "),_c('li',[_c('p',[_v("Run the command "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("java -jar NovaCare.jar")]),_c('br'),_v("\nExpected: The app launches with a set of sample patients. The window size may not be optimal.")])])])]),_v(" "),_c('li',[_c('p',[_v("Saving window preferences")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Resize the window to an optimum size. Move the window to a different location. Close the window.")])]),_v(" "),_c('li',[_c('p',[_v("Re-launch the app by running the command "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("java -jar NovaCare.jar")]),_v("."),_c('br'),_v("\nExpected: The most recent window size and location is retained.")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"deleting-a-patient"}},[_v("Deleting a Patient"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#deleting-a-patient","onclick":"event.stopPropagation()"}})])}
@@ -371,7 +371,7 @@ with(this){return _c('ol',[_c('li',[_c('p',[_v("Deleting a patient while all pat
 with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#saving-data","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])])])}
+with(this){return _c('ol',[_c('li',[_c('p',[_v("All data is written to file specified in "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("preferences.json")])]),_v(" "),_c('ol',[_c('li',[_v("By default, the data is saved in the file "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("\"addressBookFilePath\" : \"data\\\\addressbook.json\"")]),_v(".")]),_v(" "),_c('li',[_v("Whenever a command is used to modify the data (e.g., "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("add")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("delete")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("edit")]),_v("), the data is saved into the file indicated in "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("preferences.json")]),_v(".")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"adding-a-task"}},[_v("Adding a Task"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#adding-a-task","onclick":"event.stopPropagation()"}})])}
@@ -386,6 +386,6 @@ with(this){return _c('h3',{attrs:{"id":"changing-priority-level"}},[_v("Changing
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Changing a priority level of a patient")]),_v(" "),_c('ol',[_c('li',[_c('p',[_v("Prerequisites: List all patients using the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")]),_v(" command. Patient should already exist in the list.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("priority 1 l/2")]),_c('br'),_v("\nExpected: Priority level 2 is assigned to the patient with ID 1. Details of the priority update are shown in the status message. Timestamp in the status bar is updated.")])]),_v(" "),_c('li',[_c('p',[_v("Test case: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("priority 0 l/2")]),_c('br'),_v("\nExpected: No priority is assigned. Error details are shown in the status message indicating an invalid patient ID. Status bar remains the same.")])]),_v(" "),_c('li',[_c('p',[_v("Other incorrect priority commands to try: "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("priority")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("priority x l/")]),_v(", "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("priority 1 l/")]),_v(" (where x is an invalid patient ID or the priority level is missing or invalid)"),_c('br'),_v("\nExpected: Similar to previous. Error details are shown in the status message explaining the issue with the command input.")])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 9 Nov 2024, 17:12:19 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Sat, 9 Nov 2024, 18:28:09 GMT+8]")])])])}
 }];
   
