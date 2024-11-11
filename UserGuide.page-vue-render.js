@@ -14,7 +14,7 @@ with(this){return _c('p',[_c('strong',[_v("NovaCare")]),_v(" is a "),_c('strong'
 with(this){return _c('p',[_v("With "),_c('strong',[_v("NovaCare")]),_v(", nurses can seamlessly manage tasks such as tracking patient information, updating medical notes and organizing contact and emergency details —\nall through a streamlined, keyboard-friendly interface that minimizes clicks and maximizes productivity.\nThis tool is tailored to "),_c('strong',[_v("support the unique needs of private nurses")]),_v(", enabling them to deliver high-quality care with accuracy and ease.")])}
 },function anonymous(
 ) {
-with(this){return _c('ol',[_c('li',[_c('strong',[_v("Set up NovaCare")]),_v(" using "),_c('strong',[_v("Mac/Linux")]),_v(" or "),_c('strong',[_v("Windows")]),_v(".")]),_v(" "),_c('li',[_c('strong',[_v("Explore and use features")]),_v(" that are available in NovaCare to add and delete your first private patient details and task details.")]),_v(" "),_c('li',[_v("Quickly learn and master various "),_c('a',{attrs:{"href":"/tp/(#10-glossary)"}},[_v("commands")]),_v(" and actions available in NovaCare.")]),_v(" "),_c('li',[_v("General "),_c('a',{attrs:{"href":"#7-faq"}},[_v("FAQs")]),_v(" (Frequently asked questions) of NovaCare.")])])}
+with(this){return _c('ol',[_c('li',[_c('strong',[_v("Set up NovaCare")]),_v(" using "),_c('strong',[_v("Mac/Linux")]),_v(" or "),_c('strong',[_v("Windows")]),_v(".")]),_v(" "),_c('li',[_c('strong',[_v("Explore and use features")]),_v(" that are available in NovaCare to add and delete your first private patient details and task details.")]),_v(" "),_c('li',[_v("Quickly learn and master various "),_c('a',{attrs:{"href":"#10-glossary"}},[_v("commands")]),_v(" and actions available in NovaCare.")]),_v(" "),_c('li',[_v("General "),_c('a',{attrs:{"href":"#7-faq"}},[_v("FAQs")]),_v(" (Frequently asked questions) of NovaCare.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"table-of-contents"}},[_v("Table of Contents"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#table-of-contents","onclick":"event.stopPropagation()"}})])}
@@ -479,6 +479,6 @@ with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticC
 with(this){return _c('p',[_c('a',{attrs:{"href":"#table-of-contents"}},[_v("⬆️ Back to Table of Contents")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 15:32:12 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.5.3")]),_v(", generated on Mon, 11 Nov 2024, 16:31:47 GMT+8]")])])])}
 }];
   
